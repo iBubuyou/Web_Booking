@@ -1,0 +1,31 @@
+/* Carousel.css */
+
+.slick-slider {
+    width: 60%;
+    margin: 0 auto;
+  }
+  
+  .slick-slide img {
+    width: 500px; /* หรือค่าที่คุณต้องการ */
+    height: 300px; /* หรือค่าที่คุณต้องการ */
+  }
+  
+  
+  .slick-prev,
+  .slick-next {
+    font-size: 24px;
+    color: black;
+  }
+  
+  .slick-dots {
+    bottom: 10px;
+  }
+  
+  .slick-dots li button:before {
+    color: black;
+  }
+  
+  .slick-dots li.slick-active button:before {
+    color: black;
+  }
+  

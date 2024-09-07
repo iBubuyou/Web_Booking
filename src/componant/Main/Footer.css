@@ -1,0 +1,11 @@
+/* Footer.css */
+.footer {
+    background-color: #6683da; /* Blue background color */
+    padding: 20px;
+    color: rgb(206, 31, 31); /* Text color */
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+  

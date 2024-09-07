@@ -1,0 +1,140 @@
+
+/* First.css */
+.tab-bar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+.tab-bar li {
+  float: left;
+}
+
+.tab-bar li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.tab-bar li a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* First.css */
+.text-box {
+  background-color: #dad2d2;
+  border: 1px solid #ddd;
+  padding: 15px;
+  margin: 10px 0;
+  text-align: center;
+}
+
+/* First.css */
+
+.centered {
+  background-color: #6683da; /* เปลี่ยน #yourColor เป็นสีที่คุณต้องการ */
+  /* อื่น ๆ ตามต้องการ */
+}
+/* First.css */
+
+.centered {
+  /* อื่น ๆ ตามต้องการ */
+}
+
+.centered h1 {
+  color: white; /* เปลี่ยนเป็นสีขาวหรือสีที่คุณต้องการ */
+}
+
+p {
+  color: white; /* เปลี่ยนเป็นสีขาวหรือสีที่คุณต้องการ */
+}
+
+.text-box button {
+  color: #6f0b0b; /* เปลี่ยนเป็นสีขาวหรือสีที่คุณต้องการ */
+  /* อื่น ๆ ตามต้องการ */
+}
+/* First.css */
+
+.centered {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* อื่น ๆ ตามต้องการ */
+}
+
+.centered nav {
+  display: flex;
+  align-items: center;
+}
+
+.centered nav button {
+  margin-left: auto; /* ทำให้ปุ่มชิดขวา */
+}
+
+.text-box p,
+.text-box button {
+  color: #6f0b0b;
+  /* อื่น ๆ ตามต้องการ */
+}
+/* First.css */
+
+.centered {
+  display: flex;
+  flex-direction: column; /* ทำให้ส่วนของ .centered เรียงตั้งฉาก */
+  align-items: center;
+  /* อื่น ๆ ตามต้องการ */
+}
+
+.centered nav {
+  display: flex;
+  flex-direction: column; /* ทำให้ส่วนของ nav เรียงตั้งฉาก */
+  align-items: center;
+}
+
+.centered nav button {
+  margin-bottom: 10px; /* ระยะห่างระหว่างปุ่ม */
+}
+
+.text-box p,
+.text-box button {
+  color: white;
+  /* อื่น ๆ ตามต้องการ */
+}
+
+.tab-bar {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%; /* ทำให้ Tab bar มีความกว้างเต็มหน้าจอ */
+  background-color: #333; /* สีพื้นหลังของ Tab bar */
+}
+
+.tab-bar li {
+  margin: 0;
+}
+
+.tab-bar a {
+  text-decoration: none;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.tab-bar a:hover {
+  background-color: #555; /* สีเมื่อเม้าส์ชี้ที่ Tab */
+}
+
+/* First.css */
+.body-content {
+  text-align: center;
+}
+
+/* เพิ่มคุณสมบัติอื่น ๆ ตามต้องการ */
+

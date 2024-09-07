@@ -1,0 +1,267 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff; /* Or another color that fits the theme */
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  border-radius: 0.5rem;
+}
+
+.login-form input[type="text"],
+.login-form input[type="password"] {
+  margin: 0.5rem 0;
+  width: 100%; /* Adjust based on preference */
+}
+
+.login-form-button {
+  margin-top: 1rem;
+  cursor: pointer;
+  
+}
+
+/* Enhancing the look & feel of the login button */
+.login-form-button[type="submit"] {
+  background-color: #464646; /* เปลี่ยนสีพื้นหลังปุ่มเป็นสีส้ม */
+  color: #ffffff; /* เปลี่ยนสีตัวอักษรเป็นสีขาว */
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 0.2rem;
+  transition: background-color 0.2s, color 0.2s;
+  margin-bottom: 220px;
+}
+
+.login-form-button[type="submit"]:hover {
+  background-color: #e65232; /* เปลี่ยนสีพื้นหลังปุ่มเมื่อ hover เป็นสีส้มเข้มขึ้น */
+  color: #ffffff; /* ใช้สีขาวตลอดเมื่อ hover */
+}
+
+/* Styling for error messages or notices */
+.login-form .error-message,
+.login-form .login-notice {
+  color: #d9534f; /* Bootstrap 'danger' color; adjust as needed */
+  margin: 0.5rem 0;
+}
+
+/* If you have a "Remember Me" checkbox or similar options */
+.login-form .login-remember {
+  align-self: start;
+  margin-left: 10%; /* Adjust based on the input width */
+  display: flex;
+  align-items: center;
+}
+
+.login-form .login-remember input[type="checkbox"] {
+  margin-right: 0.5rem;
+}
+
+/* Styling for links like "Forgot password?" or "Sign up" */
+.login-form .login-links a {
+  color: #495e57;
+  text-decoration: none;
+  font-size: 0.9rem;
+}
+
+.login-form .login-links a:hover {
+  text-decoration: underline;
+}
+
+  .login-head {
+    margin-bottom: 5rem;
+  }
+
+  @font-face {
+    font-family: 'Prompt-Bold';
+    src: local('Prompt-Bold'), url(./fonts/Prompt-Bold.ttf) format('truetype');
+  }
+  
+  @font-face {
+    font-family: 'Prompt-Medium';
+    src: local('Prompt-Medium'), url(./fonts/Prompt-Medium.ttf) format('truetype');
+  }
+  
+  @font-face {
+    font-family: 'Prompt-Regular';
+    src: local('Prompt-Regular'), url(./fonts/Prompt-Regular.ttf) format('truetype');
+  }
+  
+  h1, h2, h3,h4, h5, h6 {
+    font-family: 'Prompt-Medium';
+  }
+  
+  .title {
+    font-family: 'Prompt-Regular';
+  }
+  
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.screenW {
+  width: 100vw;
+}
+.fullW {
+  width: 100%;
+}
+.screenH {
+  height: 100vh;
+}
+.fullH {
+  height: 100%;
+}
+.imgCover {
+  object-fit: cover;
+}
+.overflowH {
+  overflow: hidden;
+}
+.transition1l {
+  transition: left 1s ease-in-out;
+}
+.abs {
+  position: absolute;
+}
+.rel {
+  position: relative;
+}
+.left0 {
+  left: 0px;
+}
+.left100vw {
+  left: 100vw;
+}
+.leftM100vw {
+  left: -100vw;
+}
+
+.col {
+  display: flex;
+  flex-direction: column;
+}
+.flex8 {
+  flex: 8;
+}
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+  .service-form {
+    background-color: #6683da;
+    height: 190vh;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .header {
+    margin-bottom: 50px;
+    font-size: 60px;
+    margin-top: 50px;
+  }
+
+  .myElement {
+    border: 60px solid white;
+    border-radius: 200px;
+    padding: 0.5px;
+    display: inline-block;
+    width: 1000px;
+    height: 1000px;
+    background-color: #ffffff;
+  }
+
+  .text-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 15px;
+  }
+  .card-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #ddd;
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    margin: 10px;
+    background-color: #f4f4f4;
+    width: 800px;
+    height: 400px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #ddd;
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    margin: 10px;
+    background-color: #f4f4f4;
+    width: 800px;
+    height: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-inline-start: auto;
+  }
+
+  .contact-section p {
+    color: blue;  /* Change 'blue' to the color you desire */
+}
